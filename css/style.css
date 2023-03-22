@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+body {
+    background-image: url('../img/wood.jpg');
+    color:white;
+    text-align: center;
+    margin: 2rem;
+    font-family: 'Anton', sans-serif;
+}
+
+#logo {
+    width: 50%;
+}
+
+footer #behance {
+    max-width: 20px;
+}
+footer #email {
+    max-width: 20px;
+}
+
+#grocery-input input[type=text] {
+    min-width: 100%;
+    margin-top: 1rem;
+    padding: 0.5rem 0;
+    cursor: pointer;
+    border: none;
+    width: 100%;
+}
+
+#grocery-input {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#grocery-input input[type=text] {
+    grid-column: span 2;
+    min-width: 100%;
+    margin-top: 1rem;
+    padding: 0.5rem 0;
+}
+
+#grocery-input button[type=button] {
+    grid-column: span 2;
+    min-width: 100%;
+    margin-top: 1rem;
+    padding: 0.5rem 0;
+    background-color: rgb(184, 160, 221);
+}
+
+h1 {
+    font-size: 2rem;
+  }
+
+h3 {
+    font-size: 1rem;
+  }
+
+
+  /* Tablets and Desktop Screens */
+@media only screen and (min-width: 35rem) {
+h1 {
+    font-size: 6rem;
+  }
+
+h3 {
+    font-size: 2rem;
+}
+
+
+#logo {
+    width: 40%;
+}
+#grocery-input input[type=text] {
+    grid-column: span 2;
+    min-width: 100%;
+    margin-top: 1rem;
+    padding: 1.5em 0;
+}
+
+#grocery-input button[type=button] {
+    grid-column: span 2;
+    min-width: 100%;
+    margin-top: 1rem;
+    padding: 1.5rem 0;
+    background-color: rgb(184, 160, 221);
+}
+}
